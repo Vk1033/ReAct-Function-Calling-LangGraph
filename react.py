@@ -7,10 +7,8 @@ load_dotenv()
 
 def triple(num: float) -> float:
     """
-    Args:
-        num (float): The number to be tripled
-    Returns:
-        float: The tripled number
+    param num: a number to triple
+    returns: the triple of the input number
     """
     return float(num) * 3
 
